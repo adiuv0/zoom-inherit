@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#14B8A6"/>
+      <stop offset="1" stop-color="#0F5F73"/>
+    </linearGradient>
+  </defs>
+  <!-- simplified for toolbar sizes: one magnifier with +, pixel-aligned -->
+  <rect x="0" y="0" width="16" height="16" rx="3.5" fill="url(#bg)"/>
+  <g stroke="#fff" fill="none">
+    <circle cx="6.5" cy="6.5" r="4.25" stroke-width="1.5"/>
+    <line x1="9.75" y1="9.75" x2="13.25" y2="13.25" stroke-width="2.1" stroke-linecap="round"/>
+    <line x1="6.5" y1="4.5" x2="6.5" y2="8.5" stroke-width="1"/>
+    <line x1="4.5" y1="6.5" x2="8.5" y2="6.5" stroke-width="1"/>
+  </g>
+</svg>

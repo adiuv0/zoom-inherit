@@ -1,0 +1,63 @@
+ZOOM INHERIT: CHROME WEB STORE SUBMISSION KIT
+=============================================
+
+Upload: zoom-inherit-1.0.0.zip (manifest.json is at the zip root, as the store requires)
+
+
+STORE LISTING TAB
+-----------------
+Name (from manifest):  Zoom Inherit
+Summary (from manifest, 102/132 chars):
+  Tabs opened from another tab inherit that tab's zoom level, without changing your saved per-site zoom.
+
+Category:  Accessibility   (alternative: Functionality & UI)
+Language:  English
+
+Store icon (128x128):     icon-128.png
+Screenshot (1280x800):    screenshot-1280x800.png
+Small promo tile (440x280, optional but helps placement):  promo-tile-440x280.png
+
+Description (paste as-is):
+---8<---
+Zoom Inherit makes a tab you open from a page start at that page's zoom level.
+
+Chrome remembers zoom per website. If you've zoomed a page to 150% and open a link to a different site, the new tab opens at 100% and you have to zoom again. With Zoom Inherit, the new tab opens at 150%.
+
+HOW IT WORKS
+• Works with links that open new tabs, middle-click, Ctrl/Cmd+click, "Open link in new tab", and pages that open new windows.
+• The new tab gets its own zoom level, so the zoom Chrome saves for each website is never changed.
+• The zoom stays with the new tab as it navigates. Zoom in or out there and that becomes the tab's level, which tabs opened from it inherit in turn.
+• Tabs you open yourself (Ctrl+T, bookmarks, typing in the address bar) behave exactly as before.
+
+PRIVACY
+No settings, no account, no network access. Zoom Inherit keeps a short list of open tab IDs and their zoom levels in session storage, which Chrome clears when you close the browser. Nothing is collected or sent anywhere.
+
+NOTE
+Turn off other zoom extensions. Two extensions controlling zoom at the same time will conflict.
+---8<---
+
+
+PRIVACY PRACTICES TAB
+---------------------
+Single purpose:
+  New tabs opened from a page inherit that page's zoom level.
+
+Permission justifications:
+  tabs:           Reads and sets zoom levels on tabs, and identifies which tab opened a new tab (including skipping blank new-tab pages).
+  webNavigation:  Detects when a link opens a new tab and when a page loads in it, so the inherited zoom can be reapplied after Chrome resets it on navigation.
+  storage:        Keeps the inherited zoom for each open tab in session storage. Nothing is stored after the browser closes or sent anywhere.
+
+Remote code:  No, I am not using remote code.
+
+Data usage:  Leave every data category unchecked (the extension collects nothing).
+             Tick all three certifications (not sold to third parties; not used for unrelated purposes; not used for creditworthiness or lending).
+
+Privacy policy URL (only if the form requires one; host this text anywhere, e.g. a GitHub gist):
+---8<---
+Zoom Inherit does not collect, store, transmit, or share any personal or browsing data. It keeps open tab IDs and zoom levels in the browser's session storage only to apply zoom to new tabs; Chrome clears this when the browser closes. The extension makes no network requests.
+---8<---
+
+
+DISTRIBUTION TAB
+----------------
+Payments: Free.   Visibility: Public (or Unlisted if it's just for you and friends).   Regions: All.
